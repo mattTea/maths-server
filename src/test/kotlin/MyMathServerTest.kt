@@ -37,7 +37,7 @@ class EndToEndTest {
     fun `all endpoints are mounted correctly`() {
         assertThat(client(Request(GET, "http://localhost:${server.port()}/ping")), hasStatus(OK))
         client(Request(GET, "http://localhost:${server.port()}/add?value=1&value=2")).answerShouldBe(3)
-//        client(Request(GET, "http://localhost:${server.port()}/multiply?value=2&value=4")).answerShouldBe(8)
+        client(Request(GET, "http://localhost:${server.port()}/multiply?value=2&value=4")).answerShouldBe(8)
     }
 }
 
@@ -60,21 +60,21 @@ class AddFunctionalTest {
     }
 }
 
-//class MultiplyFunctionalTest {
-//    private val client = MyMathsApp()
-//
-//    @Test
-//    fun `products values together`() {
-//        client(Request(GET, "multiply?value=2&value=4")).answerShouldBe(8)
-//    }
-//
-//    @Test
-//    fun `answer is zero when no values`() {
-//        client(Request(GET, "/multiply")).answerShouldBe(0)
-//    }
-//
-//    @Test
-//    fun `bad request when some values are not numbers`() {
-//        assertThat(client(Request(GET, "/multiply?value=1&value=notANumber")), hasStatus(BAD_REQUEST))
-//    }
-//}
+class MultiplyFunctionalTest {
+    private val client = MyMathsApp()
+
+    @Test
+    fun `products values together`() {
+        client(Request(GET, "multiply?value=2&value=4")).answerShouldBe(8)
+    }
+
+    @Test
+    fun `answer is zero when no values`() {
+        client(Request(GET, "/multiply")).answerShouldBe(0)
+    }
+
+    @Test
+    fun `bad request when some values are not numbers`() {
+        assertThat(client(Request(GET, "/multiply?value=1&value=notANumber")), hasStatus(BAD_REQUEST))
+    }
+}
