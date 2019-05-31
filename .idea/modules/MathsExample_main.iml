@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="MathsExample:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-server-jetty/3.146.0/679deecfe89785af46c84cf881e3f887bf648fd9/http4k-server-jetty-3.146.0.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-client-apache/3.146.0/52eddb656f69be6f1b7614d2d5f921f8a22fc3b6/http4k-client-apache-3.146.0.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-testing-hamkrest/3.146.0/26b6f788f51780e1a9afb7c1cfd58d9f670ad881/http4k-testing-hamkrest-3.146.0.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-client-okhttp/3.146.0/f727a657a2e64e091b517934ac2b6f3d3ea54b32/http4k-client-okhttp-3.146.0.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-core/3.146.0/9955ace5e58c77e86f0f5f70c2b5e766573cff9c/http4k-core-3.146.0.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.31/21edc5a6b2e39bc4dc2860346fd778e27503d6cb/kotlin-stdlib-jdk8-1.3.31.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-server/9.4.18.v20190429/6d0ca7e7ee2e5d55fb6fb03c4c1a248b1dc3d31d/http2-server-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-server-impl/9.4.18.v20190429/fd2004912fd2ced7c2cc43b3dce36e7663c55cbe/javax-websocket-server-impl-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.4.18.v20190429/c9b33e8e6ec656a45d3e285bec93fade4ab2b0dc/websocket-server-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-annotations/9.4.18.v20190429/867f12ceeffd5f3d3b9162cf4abe28fe17ce881a/jetty-annotations-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-plus/9.4.18.v20190429/14a80d75afe07a84637381c32bad6921850a9309/jetty-plus-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.4.18.v20190429/9c2f1a2b61bdc2d24f8a980c6c614aa0b588216d/jetty-webapp-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.4.18.v20190429/290f7a88f351950d51ebc9fb4a794752c62d7de5/jetty-servlet-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.4.18.v20190429/1aceff3608ca1b223bfd275a497797cfe675ef4/jetty-security-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-alpn-conscrypt-server/9.4.18.v20190429/9d9085bd11200cfbe0ae43fc455a16d6559c91bc/jetty-alpn-conscrypt-server-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-alpn-server/9.4.18.v20190429/288afd48f2eb1816889c4848a0bb8e7783ad7124/jetty-alpn-server-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.4.18.v20190429/b76ef50e04635f11d4d43bc6ccb7c4482a8384f0/jetty-server-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.4.18.v20190429/b09a61f2caf4c771853a590e0aec6a5ff4c65b36/websocket-servlet-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/4.0.1/a27082684a2ff0bf397666c3943496c44541d1ca/javax.servlet-api-4.0.1.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty.alpn/alpn-boot/8.1.13.v20181017/fecc7a23eb1cc8df0e5152f5276d36393a9d0bea/alpn-boot-8.1.13.v20181017.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.8/c27c9d6f15435dc2b6947112027b418b0eef32b9/httpclient-4.5.8.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/com.natpryce/hamkrest/1.7.0.0/485ac2858b7076720fcca88a65fe8cc8883dbf3e/hamkrest-1.7.0.0.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.14.1/67612a22d4b8f33c55263b188bf5a72774d06d18/okhttp-3.14.1.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.31/e652770b6416c6d85934086899ffed3eccd35813/kotlin-stdlib-jdk7-1.3.31.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.31/11289d20fd95ae219333f3456072be9f081c30cc/kotlin-stdlib-1.3.31.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-common/9.4.18.v20190429/6e3306d394aaaf41876220a818fb639faf5963b0/http2-common-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.http2/http2-hpack/9.4.18.v20190429/aa5f5c2b0cec925ad7f2e73a1dc7a3b3dc496e87/http2-hpack-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/javax-websocket-client-impl/9.4.18.v20190429/991137dd8522ac99436e94e9feb339f508c2874b/javax-websocket-client-impl-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.4.18.v20190429/74e06da00ca2489049144a03122c8eb0c26ce4c8/websocket-client-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-client/9.4.18.v20190429/e5d7bd53f2f3ae46354efa56beca2dc505258e92/jetty-client-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.4.18.v20190429/c2e73db2db5c369326b717da71b6587b3da11e0e/jetty-http-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.4.18.v20190429/a79b6a009987e268b396581b13d80460ea201ad7/websocket-common-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.4.18.v20190429/844af5efe58ab23fd0166a796efef123f4cb06b0/jetty-io-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-api/1.0/fc843b649d4a1dcb0497669d262befa3918c7ba8/javax.websocket-api-1.0.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.conscrypt/conscrypt-openjdk-uber/2.1.0/76415837a98c80fe5a5ed18e05085b39bcc1d673/conscrypt-openjdk-uber-2.1.0.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.11/de748cf874e4e193b42eceea9fe5574fabb9d4df/httpcore-4.4.11.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3acb4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/78c7820b205002da4d2d137f6f312bd64b3d6049/okio-1.17.2.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/20c34a04ea25cb1ef0139598bd67c764562cb170/kotlin-stdlib-common-1.3.31.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-jndi/9.4.18.v20190429/6ac74a264fcc0dad2e86a6f29aa014330d35cba3/jetty-jndi-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.4.18.v20190429/dcd2806ee48e646fd4dcff81c7c6867fea2b52e8/jetty-xml-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.4.18.v20190429/13e6148bfda7ae511f69ae7e5e3ea898bc9b0e33/jetty-util-9.4.18.v20190429.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3/67747496d8b5c1f300ed3cde4ba69d6f453ba984/javax.annotation-api-1.3.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/7.0/478006d07b7c561ae3a92ddc1829bca81ae0cdd1/asm-commons-7.0.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/7.0/4b310d20d6f1c6b7197a75f1b5d69f169bc8ac1f/asm-analysis-7.0.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/7.0/29bc62dcb85573af6e62e5b2d735ef65966c4180/asm-tree-7.0.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/7.0/d74d4ba0dee443f68fb2dcb7fcdb945a2cd89912/asm-7.0.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/javax.websocket/javax.websocket-client-api/1.0/afcf19e889d8725576811f8d47ab6c65d9dcbd78/javax.websocket-client-api-1.0.jar:/Users/mattthompson/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.4.18.v20190429/5d3a31018c8f7e892d2630cc2eca0c0949ebb110/websocket-api-9.4.18.v20190429.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="MathsExample" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_12">
+    <output url="file://$MODULE_DIR$/../../out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-server-jetty:3.146.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-client-apache:3.146.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-testing-hamkrest:3.146.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-client-okhttp:3.146.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.http4k:http4k-core:3.146.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-server:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:javax-websocket-server-impl:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-server:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-annotations:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-plus:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-webapp:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-servlet:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-security:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-alpn-conscrypt-server:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-alpn-server:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-server:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-servlet:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.mortbay.jetty.alpn:alpn-boot:8.1.13.v20181017" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.8" level="project" />
+    <orderEntry type="library" name="Gradle: com.natpryce:hamkrest:1.7.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.14.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-common:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-hpack:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:javax-websocket-client-impl:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-client:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-client:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-http:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-common:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: javax.websocket:javax.websocket-api:1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.conscrypt:conscrypt-openjdk-uber:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.11" level="project" />
+    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.17.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-jndi:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-xml:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-util:9.4.18.v20190429" level="project" />
+    <orderEntry type="library" name="Gradle: javax.annotation:javax.annotation-api:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-commons:7.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-analysis:7.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-tree:7.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm:7.0" level="project" />
+    <orderEntry type="library" name="Gradle: javax.websocket:javax.websocket-client-api:1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.4.18.v20190429" level="project" />
+  </component>
+</module>

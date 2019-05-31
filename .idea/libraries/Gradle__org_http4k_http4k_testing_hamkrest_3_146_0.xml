@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.http4k:http4k-testing-hamkrest:3.146.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-testing-hamkrest/3.146.0/26b6f788f51780e1a9afb7c1cfd58d9f670ad881/http4k-testing-hamkrest-3.146.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.http4k/http4k-testing-hamkrest/3.146.0/fdb6257f36c21f2096121e8f94a07573654bd76a/http4k-testing-hamkrest-3.146.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
